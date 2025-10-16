@@ -1,6 +1,4 @@
-# MyWebSite - Hệ thống quản trị nội dung / Cổng tin tức
-
-Phiên bản hiện tại: Dự án mẫu ASP.NET Web Forms (Framework 4.x).
+# MyWebSite - Diễn đàn sức khỏe / Cổng tin tức
 
 ## Mục tiêu đồ án
 
@@ -21,13 +19,6 @@ Dự án là một website dạng cổng tin tức / hệ thống quản trị n
 - Bình luận và kiểm duyệt bình luận.
 - Trang liên hệ gửi thông tin liên hệ đến admin.
 - Trang admin với các module: News, GroupNews, Enquiry, Comment, Advertise, Statistics, Export.
-
-## Cấu trúc project (tóm tắt)
-
-- `MyWebSite/` - Project Web Forms chính gồm các trang `.aspx`, master pages, `Web.config`.
-- `MyWebSite.Business/` - Lớp service: business logic, gọi DAL.
-- `MyWebSite.Data/` - Data Access Layer (DAL): `SqlDataProvider`, controllers/DAOs, các stored procedure được gọi từ đây.
-- `MyWebSite.Common/` - Các tiện ích dùng chung: Cookie, String, PageHelper, MegBox, v.v.
 
 ## Yêu cầu
 
