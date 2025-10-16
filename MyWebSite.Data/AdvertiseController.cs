@@ -1,0 +1,136 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+using System.Data.SqlClient;
+using System.Data.Common;
+using Microsoft.Practices.EnterpriseLibrary.Data;
+namespace MyWebSite.Data
+{
+  public  class AdvertiseDAL:SqlDataProvider
+  {
+      #region[GetByTop]
+      public List<Advertise> Advertise_GetByTop(string Top, string Where, string Order)
+      {
+          List<Data.Advertise> list = new List<Data.Advertise>();
+          Data.Advertise obj = new Data.Advertise();
+          DbCommand cmd = db.GetStoredProcCommand("sp_Advertise_GetByTop",Top,Where,Order);
+          using (IDataReader dr = db.ExecuteReader(cmd))
+          {
+              while (dr.Read())
+              {
+                  list.Add(obj.AdvertiseIDataReader(dr));
+              }
+              dr.Close();
+              dr.Dispose();
+          }
+          return list;
+      }
+      #endregion
+      #region[GetById]
+      public List<Advertise> Advertise_GetById(string Id)
+      {
+          List<Data.Advertise> list = new List<Data.Advertise>();
+          Data.Advertise obj = new Data.Advertise();
+          DbCommand cmd = db.GetStoredProcCommand("sp_Advertise_GetById",Id);
+          using (IDataReader dr = db.ExecuteReader(cmd))
+          {
+              while (dr.Read())
+              {
+                  list.Add(obj.AdvertiseIDataReader(dr));
+              }
+              dr.Close();
+              dr.Dispose();
+          }
+          return list;
+      }
+      #endregion
+      #region[Insert]
+      public bool Advertise_Insert(Advertise data)
+      {
+          using (DbCommand cmd = db.GetStoredProcCommand("sp_Advertise_Insert"))
+          {
+              cmd.Parameters.Add(new SqlParameter("@Name",data.Name));
+              cmd.Parameters.Add(new SqlParameter("@Image", data.Image));
+              cmd.Parameters.Add(new SqlParameter("@Link", data.Link));
+              cmd.Parameters.Add(new SqlParameter("@Target", data.Target));
+              cmd.Parameters.Add(new SqlParameter("@Position", data.Position));
+              cmd.Parameters.Add(new SqlParameter("@Content", data.Content));
+              cmd.Parameters.Add(new SqlParameter("@MenuID", data.MenuID));
+              cmd.Parameters.Add(new SqlParameter("@Click", data.Click));
+              cmd.Parameters.Add(new SqlParameter("@Ord", data.Ord));
+              cmd.Parameters.Add(new SqlParameter("@Active", data.Active));
+              cmd.Parameters.Add(new SqlParameter("@Lang", data.Lang));
+              try
+              {
+                  db.ExecuteNonQuery(cmd);
+                  return true;
+              }
+              catch (Exception ex)
+              {
+                  return false;
+              }
+              finally
+              {
+                  if (cmd != null) cmd.Dispose();
+              }
+          }
+      }
+      #endregion
+      #region[Update]
+      public bool Advertise_Update(Advertise data)
+      {
+          using (DbCommand cmd = db.GetStoredProcCommand("sp_Advertise_Update"))
+          {
+              cmd.Parameters.Add(new SqlParameter("@Id", data.Id));
+              cmd.Parameters.Add(new SqlParameter("@Name", data.Name));
+              cmd.Parameters.Add(new SqlParameter("@Image", data.Image));
+              cmd.Parameters.Add(new SqlParameter("@Link", data.Link));
+              cmd.Parameters.Add(new SqlParameter("@Target", data.Target));
+              cmd.Parameters.Add(new SqlParameter("@Position", data.Position));
+              cmd.Parameters.Add(new SqlParameter("@Content", data.Content));
+              cmd.Parameters.Add(new SqlParameter("@MenuID", data.MenuID));
+              cmd.Parameters.Add(new SqlParameter("@Click", data.Click));
+              cmd.Parameters.Add(new SqlParameter("@Ord", data.Ord));
+              cmd.Parameters.Add(new SqlParameter("@Active", data.Active));
+              cmd.Parameters.Add(new SqlParameter("@Lang", data.Lang));
+              try
+              {
+                  db.ExecuteNonQuery(cmd);
+                  return true;
+              }
+              catch (Exception ex)
+              {
+                  return false;
+              }
+              finally
+              {
+                  if (cmd != null) cmd.Dispose();
+              }
+          }
+      }
+      #endregion
+      #region[Delete]
+      public bool Advertise_Delete(string Id)
+      {
+          DbCommand cmd = db.GetStoredProcCommand("sp_Advertise_Delete", Id);
+          
+              try
+              {
+                  db.ExecuteNonQuery(cmd);
+                  return true;
+              }
+              catch (Exception ex)
+              {
+                  return false;
+              }
+              finally
+              {
+                  if (cmd != null) cmd.Dispose();
+              }
+          }
+      
+      #endregion
+  }
+}

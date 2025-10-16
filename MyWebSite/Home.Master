@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="MyWebSite.Home" %>
+<%@ Register Src="~/Control/Default/My_U_TopIndex.ascx" TagPrefix="uc1" TagName="My_U_TopIndex" %>
+<%@ Register Src="~/Control/Default/My_U_banner.ascx" TagPrefix="uc1" TagName="My_U_banner" %>
+<%@ Register Src="~/Control/Default/My_U_Menu.ascx" TagPrefix="uc1" TagName="My_U_Menu" %>
+<%@ Register Src="~/Control/Default/My_U_Item_Quangcao.ascx" TagPrefix="uc1" TagName="My_U_Item_Quangcao" %>
+<%@ Register Src="~/Control/Default/My_U_HinhChay.ascx" TagPrefix="uc1" TagName="My_U_HinhChay" %>
+<%@ Register Src="~/Control/Default/My_U_Footer.ascx" TagPrefix="uc1" TagName="My_U_Footer" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="App_Themes/Default/images/kcmdrkonqi.ico" rel="shortcut icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+     <center>
+     <form id="form1" runat="server">
+    <div class="wrapter">
+        <uc1:My_U_TopIndex runat="server" id="My_U_TopIndex" />
+        <uc1:My_U_banner runat="server" id="My_U_banner" />
+         <uc1:My_U_Menu runat="server" id="My_U_Menu" />
+       
+        <div class="content">
+           
+           <div class="content-left">
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+               
+               </asp:ContentPlaceHolder>
+                   
+              
+          </div><!-- end content-left-->
+         <div class="content-right">
+
+<uc1:My_U_Item_Quangcao runat="server" id="My_U_Item_Quangcao" />
+
+
+                 <%--<uc3:My_U_Item_TapChi ID="My_U_Item_TapChi" runat="server"  />
+                 <uc4:My_U_Item_Quangcao ID="My_U_Item_Quangcao" runat="server" />
+
+              
+                 <uc5:My_U_Item_Tudien ID="My_U_Item_Tudien" runat="server" />
+                 <uc6:My_U_Item_LienKetWeb ID="My_U_Item_LienKetWeb" runat="server" />
+                 <uc7:My_U_Item_LienKet ID="My_U_Item_LienKet" runat="server" />--%>
+            
+     </div><!--end content-right-->
+
+  <uc1:My_U_HinhChay runat="server" id="My_U_HinhChay" />
+        <%-- <uc9:My_U_HinhChay ID="My_U_HinhChay" runat="server" />--%>
+
+      
+    </div><!--end Content-->
+<uc1:My_U_Footer runat="server" id="My_U_Footer" />
+      <%--  <uc10:My ID="My_U_Footer" runat="server" />--%>
+       
+
+       
+    </div>
+    </form>
+    </center>
+</body>
+</html>
