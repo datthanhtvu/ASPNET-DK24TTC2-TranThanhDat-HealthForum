@@ -19,14 +19,14 @@ Website **HealthForum** là một diễn đàn sức khỏe trực tuyến, nơi
 ## 🗂 Cấu trúc thư mục
 
 HealthForum/
-├── setup/ # Chứa hướng dẫn cài đặt & dữ liệu mẫu
-├── src/ # Chứa toàn bộ mã nguồn ASP.NET
-├── progress-report/ # Báo cáo tiến độ từng tuần
-└── thesis/ # Báo cáo chính thức của đồ án
-├── doc/ # File Word (.docx)
-├── pdf/ # File PDF
-├── abs/ # File trình bày (PowerPoint, video)
-└── refs/ # Tài liệu tham khảo
+- ├── setup/ # Chứa hướng dẫn cài đặt & dữ liệu mẫu
+- ├── src/ # Chứa toàn bộ mã nguồn ASP.NET
+- ├── progress-report/ # Báo cáo tiến độ từng tuần
+- └── thesis/ # Báo cáo chính thức của đồ án
+- ├── doc/ # File Word (.docx)
+- ├── pdf/ # File PDF
+- ├── abs/ # File trình bày (PowerPoint, video)
+- └── refs/ # Tài liệu tham khảo
 
 ---
 
