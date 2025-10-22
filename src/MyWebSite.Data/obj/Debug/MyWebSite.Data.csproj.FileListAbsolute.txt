@@ -1,0 +1,28 @@
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.pdb
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\Microsoft.Practices.Unity.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\bin\Debug\MySql.Data.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.dll
+E:\D\DEMOASP2013\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.pdb
+D:\Download\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.dll
+D:\Download\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.pdb
+D:\Download\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.dll
+D:\Download\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.pdb
+C:\Users\ngoct\Downloads\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.dll
+C:\Users\ngoct\Downloads\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.pdb
+C:\Users\ngoct\Downloads\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.csproj.AssemblyReference.cache
+C:\Users\ngoct\Downloads\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.csproj.CoreCompileInputs.cache
+C:\Users\ngoct\Downloads\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSit.9E8686D1.Up2Date
+C:\Users\ngoct\Downloads\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.dll
+C:\Users\ngoct\Downloads\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\[Sharecode.vn] Code web tin tuc suc khoe va y hoc asp.net + bao cao\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.pdb
+C:\Users\ngoct\OneDrive\Desktop\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.dll
+C:\Users\ngoct\OneDrive\Desktop\MyWebSite\MyWebSite.Data\bin\Debug\MyWebSite.Data.pdb
+C:\Users\ngoct\OneDrive\Desktop\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.csproj.AssemblyReference.cache
+C:\Users\ngoct\OneDrive\Desktop\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.csproj.CoreCompileInputs.cache
+C:\Users\ngoct\OneDrive\Desktop\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSit.9E8686D1.Up2Date
+C:\Users\ngoct\OneDrive\Desktop\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.dll
+C:\Users\ngoct\OneDrive\Desktop\MyWebSite\MyWebSite.Data\obj\Debug\MyWebSite.Data.pdb
