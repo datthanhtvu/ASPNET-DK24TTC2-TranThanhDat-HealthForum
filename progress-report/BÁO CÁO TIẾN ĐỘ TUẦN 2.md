@@ -21,6 +21,10 @@
 - Xây dựng khung lý thuyết cho phần “Tổng quan về ASP.NET” trong báo cáo chính.  
 - Hoàn thiện tài liệu markdown mô tả lại nội dung lý thuyết để đẩy lên GitHub repository của đề tài.  
 
+**Tiến độ cập nhật dự án:**  
+- Hoàn thành khoảng **25% tổng tiến độ dự án**.  
+- Đã kết thúc phần lý thuyết cơ bản, sẵn sàng chuyển sang giai đoạn nghiên cứu chuyên sâu và phân tích yêu cầu hệ thống.  
+
 ---
 
 📌 **Kết quả đạt được:**  
