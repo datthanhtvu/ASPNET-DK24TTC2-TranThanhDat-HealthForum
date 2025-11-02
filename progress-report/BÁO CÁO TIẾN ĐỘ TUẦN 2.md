@@ -1,7 +1,7 @@
 # 🧾 BÁO CÁO TIẾN ĐỘ TUẦN 2
 
 **Môn học:** Chuyên đề ASP.NET  
-**Tuần:** 2 (14/10/2025 – 20/10/2025)  
+**Tuần:** 2 (20/10/2025 – 26/10/2025)  
 **Sinh viên thực hiện:** Trần Đạt Thành  
 **Lớp:** DK24TTC2  
 **Mã sinh viên:** 170124098  
