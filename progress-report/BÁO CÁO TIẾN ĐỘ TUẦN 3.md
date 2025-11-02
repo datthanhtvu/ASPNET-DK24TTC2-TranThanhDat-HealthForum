@@ -29,6 +29,12 @@
 - Sẵn sàng cho giai đoạn thiết kế và phân tích yêu cầu hệ thống trong tuần kế tiếp.  
 
 ---
+**Tiến độ cập nhật dự án:**  
+- Tiến độ dự án đạt khoảng **35%**.  
+- Đã hoàn thiện phần lý thuyết và chuyển sang giai đoạn **phân tích hệ thống**.  
+- Báo cáo và tài liệu được cập nhật đầy đủ lên kho lưu trữ GitHub của đề tài.  
+
+---
 
 🕒 **Kế hoạch tuần tiếp theo:**  
 - Bắt đầu **chương 3 – Hiện thực hóa nghiên cứu**, thực hiện phần mô tả bài toán và khảo sát yêu cầu hệ thống.  
