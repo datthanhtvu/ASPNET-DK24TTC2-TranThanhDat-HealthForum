@@ -2,7 +2,7 @@
 
 **Đề tài:** Xây dựng website diễn đàn sức khỏe  
 **Môn học:** ASP.NET Web Forms  
-**Sinh viên thực hiện:** Trần Thành Đạt – Lớp DK24TTC2  
+**Sinh viên thực hiện:** Trần Đạt Thành – Lớp DK24TTC2  
 
 ---
 
