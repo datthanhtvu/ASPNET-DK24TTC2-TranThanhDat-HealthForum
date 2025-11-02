@@ -28,7 +28,11 @@
 - Hoàn thành phần **mô tả bài toán**, **phân tích yêu cầu**, và **thiết kế hệ thống**.  
 - Xây dựng được **mô hình cơ sở dữ liệu đầy đủ** với các bảng và quan hệ được định nghĩa rõ ràng.  
 - Báo cáo đã thể hiện rõ cấu trúc và luồng xử lý dữ liệu của hệ thống.  
-
+---
+ **Tiến độ cập nhật dự án:**  
+- Tiến độ dự án đạt khoảng **50%**.  
+- Đã hoàn thành giai đoạn thiết kế hệ thống và cơ sở dữ liệu.  
+- Dự án chuyển sang bước **hiện thực hóa và cài đặt chức năng chính** trên ASP.NET Web Forms.  
 ---
 
 🕒 **Kế hoạch tuần tiếp theo:**  
