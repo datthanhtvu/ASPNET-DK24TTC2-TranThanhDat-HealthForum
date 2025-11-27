@@ -1,4 +1,5 @@
 # 🧾 BÁO CÁO TIẾN ĐỘ TUẦN 1
+
 **Môn học:** Chuyên đề ASP.NET  
 **Tuần:** 2 (20/10/2025 – 26/10/2025)  
 **Sinh viên thực hiện:** Trần Đạt Thành  
@@ -6,7 +7,7 @@
 **Mã sinh viên:** 170124098  
 **Email:** [trandatthanh@tvu.edu.vn](mailto:trandatthanh@tvu.edu.vn)  
 **Đề tài:** Xây dựng website diễn đàn sức khỏe  
-**Giảng viên hướng dẫn:** ThS. Đoàn Phước Miền  
+**Giảng viên hướng dẫn:** TS. Đoàn Phước Miền  
 ---
 ## 1. Nội dung công việc đã thực hiện
 
