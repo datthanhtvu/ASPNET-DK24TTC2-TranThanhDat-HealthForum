@@ -1,13 +1,5 @@
 # 🧾 BÁO CÁO TIẾN ĐỘ TUẦN 3
 
-**Môn học:** Chuyên đề ASP.NET  
-**Tuần:** 3 (27/10/2025 – 02/11/2025)  
-**Sinh viên thực hiện:** Trần Đạt Thành  
-**Lớp:** DK24TTC2  
-**Mã sinh viên:** 170124098  
-**Email:** [trandatthanh@tvu.edu.vn](mailto:trandatthanh@tvu.edu.vn)  
-**Đề tài:** Xây dựng website diễn đàn sức khỏe  
-**Giảng viên hướng dẫn:** ThS. Đoàn Phước Miền  
 
 ---
 
