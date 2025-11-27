@@ -1,4 +1,4 @@
-# 🧾 BÁO CÁO TIẾN ĐỘ TUẦN 2
+#  BÁO CÁO TIẾN ĐỘ TUẦN 2
 
 
 ---
